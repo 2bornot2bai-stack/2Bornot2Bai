@@ -90,8 +90,16 @@ Formspree Basic HTML:
 
 ## WhatsApp
 
+El enlace de WhatsApp está configurado, pero en la web no se muestra el número. Se muestra como botón verde.
+
 ```text
 https://wa.me/34648606079
+```
+
+## Teléfono de contacto
+
+```text
+91 242 68 47
 ```
 
 ## Checklist
@@ -101,7 +109,8 @@ https://wa.me/34648606079
 - [x] Estilo navy, oro y azul eléctrico.
 - [x] Hero premium con canvas tecnológico ligero.
 - [x] Formulario Formspree configurado.
-- [x] WhatsApp configurado.
+- [x] WhatsApp configurado como botón verde sin mostrar el número.
+- [x] Teléfono de contacto visible: 91 242 68 47.
 - [x] CNAME incluido.
 - [x] Web responsive.
 - [x] Sin React, sin backend, sin WordPress.
