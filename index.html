@@ -3,294 +3,211 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>2B OR NOT 2B AI Systems · Marketing, web e IA para empresas</title>
-  <meta name="description" content="Marketing digital, desarrollo web, IA aplicada, automatización, social media, captación de leads, analítica y sistemas digitales para pymes, profesionales y empresas.">
-  <meta name="theme-color" content="#000712">
+  <title>2B OR NOT 2B AI Systems | Web, marketing e IA aplicada</title>
+  <meta name="description" content="Sistemas digitales para pymes: web premium, marketing digital, IA aplicada, automatización, captación, social media y analítica.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.2bornot2bai.com/">
-
   <meta property="og:title" content="2B OR NOT 2B AI Systems">
-  <meta property="og:description" content="Marketing, web e IA para convertir tu presencia digital en un sistema comercial.">
+  <meta property="og:description" content="Convierte tu presencia digital en un sistema comercial medible, claro y escalable.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.2bornot2bai.com/">
   <meta property="og:image" content="https://www.2bornot2bai.com/assets/img/logo-2b.png">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/logo-2b.png">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
   <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
 
-  <header class="site-header" data-header>
+  <header class="site-header" id="top">
     <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="Ir al inicio">
-        <img src="assets/img/logo-2b.png" alt="Logotipo de 2B OR NOT 2B AI Systems" class="brand-logo" width="52" height="52">
-        <span class="brand-text">2B OR NOT 2B <strong>AI Systems</strong></span>
+      <a class="brand" href="#top" aria-label="Inicio">
+        <img src="assets/img/logo-2b.png" alt="Logo circular 2B OR NOT 2B AI Systems">
+        <span><strong>2B OR NOT 2B</strong><small>AI Systems</small></span>
       </a>
-
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
-        <span class="sr-only">Abrir menú</span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
-      <nav class="site-nav" id="site-nav" aria-label="Navegación principal" data-nav>
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="Navegación principal">
+        <a href="#sistema">Sistema</a>
         <a href="#servicios">Servicios</a>
         <a href="#metodo">Método</a>
-        <a href="#diferencial">Diferencial</a>
+        <a href="#ia">IA aplicada</a>
         <a href="#fundador">Fundador</a>
-        <a href="#contacto">Contacto</a>
-        <a href="#contacto" class="nav-cta">Diagnóstico inicial</a>
+        <a class="nav-cta" href="#contacto">Diagnóstico inicial</a>
       </nav>
     </div>
   </header>
 
   <main id="main">
-    <section class="hero section" id="inicio" aria-labelledby="hero-title">
+    <section class="hero" aria-labelledby="hero-title">
+      <canvas id="heroCanvas" class="hero-canvas" aria-hidden="true"></canvas>
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Marketing digital · Web · IA aplicada · Automatización</p>
-          <h1 id="hero-title">Marketing, web e IA para convertir tu presencia digital en un sistema comercial.</h1>
-          <p class="hero-lead">Diseñamos estrategias digitales, webs, contenidos y automatizaciones para que tu negocio capte mejor, comunique mejor y mida mejor.</p>
-
-          <div class="hero-actions" aria-label="Acciones principales">
+          <p class="eyebrow">Marketing · Web · IA · Automatización · Datos</p>
+          <h1 id="hero-title">Convierte tu presencia digital en un sistema comercial inteligente.</h1>
+          <p class="hero-lead">Diseñamos webs, contenidos, automatizaciones y sistemas de captación para que tu negocio comunique mejor, genere oportunidades y tome decisiones con datos.</p>
+          <div class="hero-actions">
             <a class="btn btn-primary" href="#contacto">Solicitar diagnóstico inicial</a>
-            <a class="btn btn-secondary" href="#servicios">Ver servicios</a>
+            <a class="btn btn-secondary" href="#sistema">Ver sistema 2B</a>
           </div>
-
-          <div class="hero-proof" aria-label="Áreas de trabajo">
-            <span>Webs premium</span>
-            <span>Captación</span>
-            <span>Automatización</span>
-            <span>Analítica</span>
+          <div class="hero-proof">
+            <div><strong>01</strong><span>Claridad antes de ejecutar</span></div>
+            <div><strong>02</strong><span>IA donde aporta valor</span></div>
+            <div><strong>03</strong><span>Medición desde el inicio</span></div>
           </div>
         </div>
 
-        <div class="hero-visual reveal" aria-label="Emblema de marca y prioridades del sistema">
-          <div class="emblem-card">
-            <div class="emblem-ring" aria-hidden="true"></div>
-            <img src="assets/img/logo-2b.png" alt="Emblema circular 2B OR NOT 2B AI Systems" class="hero-logo" width="340" height="340">
-          </div>
-
-          <div class="badge-panel" aria-label="Principios de trabajo">
-            <article class="hero-badge">
-              <strong>Diagnóstico</strong>
-              <span>Claridad antes de ejecutar</span>
-            </article>
-            <article class="hero-badge">
-              <strong>Sistema</strong>
-              <span>Web · contenido · captación</span>
-            </article>
-            <article class="hero-badge">
-              <strong>Medición</strong>
-              <span>Leads, eventos y decisiones</span>
-            </article>
+        <div class="hero-visual reveal">
+          <div class="system-visual">
+            <svg class="system-lines" viewBox="0 0 620 620" aria-hidden="true">
+              <path d="M310 310 C205 250 145 170 102 104"/>
+              <path d="M310 310 C428 244 489 176 520 104"/>
+              <path d="M310 310 C220 392 160 450 104 520"/>
+              <path d="M310 310 C420 390 475 455 520 520"/>
+              <circle cx="310" cy="310" r="176"/>
+            </svg>
+            <div class="logo-core"><img src="assets/img/logo-2b.png" alt="Emblema de 2B OR NOT 2B AI Systems"></div>
+            <div class="node n1"><span>Entrada</span><strong>Web + Landing</strong></div>
+            <div class="node n2"><span>Activación</span><strong>Contenido + Ads</strong></div>
+            <div class="node n3"><span>Motor</span><strong>IA + Automatización</strong></div>
+            <div class="node n4"><span>Control</span><strong>Datos + KPIs</strong></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="problem section compact" aria-labelledby="problem-title">
+    <section class="insight" id="sistema">
       <div class="container">
-        <div class="statement-card reveal">
-          <p class="eyebrow">El problema no suele ser tener pocas herramientas</p>
-          <h2 id="problem-title">El reto es que cada canal tenga una función clara.</h2>
-          <p>Tener una web no significa tener un sistema digital. Publicar en redes no significa tener una estrategia. Usar IA no significa automatizar bien. Nuestro trabajo consiste en ordenar todo eso para que cada canal cumpla una función.</p>
+        <div class="insight-card reveal">
+          <div><p class="eyebrow">La diferencia</p><h2>No necesitas más piezas sueltas. Necesitas un sistema.</h2></div>
+          <p>Tener una web, publicar en redes, probar herramientas de IA o lanzar una campaña no garantiza resultados si cada cosa trabaja por separado. En 2B diseñamos la arquitectura completa: mensaje, web, captación, automatización y medición funcionando con una lógica común.</p>
         </div>
       </div>
     </section>
 
-    <section class="services section" id="servicios" aria-labelledby="services-title">
+    <section class="section">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Sistema operativo comercial</p>
+          <h2>La capa digital que conecta marketing, ventas y operación.</h2>
+          <p>Construimos una base clara para que cada canal tenga una función: atraer, explicar, convertir, automatizar o medir.</p>
+        </div>
+        <div class="pillar-grid">
+          <article class="pillar reveal"><span>01</span><h3>Presencia que genera confianza</h3><p>Web premium, mensajes claros, estructura de servicios y llamadas a la acción pensadas para convertir visitas en conversaciones.</p></article>
+          <article class="pillar reveal"><span>02</span><h3>Captación con intención</h3><p>Landing pages, formularios, WhatsApp, campañas y contenido orientado a atraer oportunidades reales, no solo tráfico.</p></article>
+          <article class="pillar reveal"><span>03</span><h3>Automatización útil</h3><p>Procesos sencillos que reducen tareas repetitivas: clasificación, avisos, seguimiento, respuestas iniciales y generación de documentos.</p></article>
+          <article class="pillar reveal"><span>04</span><h3>Datos para decidir</h3><p>Eventos, formularios, leads, fuentes de tráfico y paneles básicos para saber qué funciona y qué necesita ajuste.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicios">
       <div class="container">
         <div class="section-heading reveal">
           <p class="eyebrow">Servicios</p>
-          <h2 id="services-title">Diseñamos la base digital para vender, atender y decidir mejor.</h2>
-          <p>Unimos estrategia, diseño, implementación técnica y medición para crear activos digitales útiles, escalables y fáciles de explicar.</p>
+          <h2>Todo lo necesario para activar un negocio digitalmente.</h2>
+          <p>Podemos trabajar una pieza concreta o diseñar un sistema completo por fases, según el punto de partida de tu empresa.</p>
         </div>
-
-        <div class="cards-grid services-grid">
-          <article class="service-card reveal">
-            <span class="icon-line" aria-hidden="true">
-              <svg viewBox="0 0 48 48"><path d="M8 35c7-18 18-24 32-26M10 35h11m-5-7h13m-6-7h13"/><circle cx="37" cy="10" r="4"/></svg>
-            </span>
-            <h3>Marketing digital estratégico</h3>
-            <p>Ordenamos propuesta de valor, canales, mensajes, prioridades y siguientes pasos para que el marketing no sea una suma de acciones sueltas.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="icon-line" aria-hidden="true">
-              <svg viewBox="0 0 48 48"><rect x="7" y="10" width="34" height="25" rx="3"/><path d="M7 17h34M16 39h16M24 35v4"/></svg>
-            </span>
-            <h3>Desarrollo web y landing pages</h3>
-            <p>Webs corporativas y páginas de captación con diseño premium, estructura clara, SEO básico y llamadas a la acción visibles.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="icon-line" aria-hidden="true">
-              <svg viewBox="0 0 48 48"><path d="M24 7v8M24 33v8M7 24h8M33 24h8M14 14l6 6M28 28l6 6M34 14l-6 6M20 28l-6 6"/><circle cx="24" cy="24" r="8"/></svg>
-            </span>
-            <h3>IA aplicada y automatización</h3>
-            <p>Aplicamos IA y flujos automáticos para reducir tareas repetitivas, preparar información y ayudar al equipo humano a trabajar con más orden.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="icon-line" aria-hidden="true">
-              <svg viewBox="0 0 48 48"><path d="M12 32V14h24v18H18l-6 6v-6z"/><path d="M18 20h12M18 26h8"/></svg>
-            </span>
-            <h3>Social media y contenido</h3>
-            <p>Convertimos ideas en mensajes, formatos y calendarios con intención: educar, generar confianza, activar conversación y apoyar la venta.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="icon-line" aria-hidden="true">
-              <svg viewBox="0 0 48 48"><path d="M8 24h18M26 24l-6-6M26 24l-6 6"/><path d="M30 12h10v24H30zM34 18h2M34 24h2M34 30h2"/></svg>
-            </span>
-            <h3>Captación y campañas</h3>
-            <p>Preparamos formularios, WhatsApp, eventos y landings para que la captación pueda medirse antes de invertir en tráfico o campañas.</p>
-          </article>
-
-          <article class="service-card reveal">
-            <span class="icon-line" aria-hidden="true">
-              <svg viewBox="0 0 48 48"><path d="M10 38V10M10 38h30"/><rect x="15" y="24" width="5" height="10"/><rect x="24" y="17" width="5" height="17"/><rect x="33" y="12" width="5" height="22"/></svg>
-            </span>
-            <h3>Analítica y optimización</h3>
-            <p>Medimos formularios, WhatsApp, eventos y rendimiento para tomar decisiones con señales reales, no solo con impresiones visuales.</p>
-          </article>
+        <div class="services-grid">
+          <article class="service-card reveal"><i class="icon strategy"></i><h3>Estrategia digital</h3><p>Diagnóstico, propuesta de valor, priorización de canales, mensajes y plan de acción para dejar de improvisar.</p><ul><li>Auditoría inicial</li><li>Roadmap</li><li>Prioridades</li></ul></article>
+          <article class="service-card reveal"><i class="icon web"></i><h3>Web premium y landing pages</h3><p>Webs estáticas, landing pages y páginas comerciales con estética premium, estructura de conversión y buen rendimiento.</p><ul><li>GitHub Pages</li><li>SEO básico</li><li>Migrable a WordPress</li></ul></article>
+          <article class="service-card reveal"><i class="icon ai"></i><h3>IA aplicada</h3><p>IA para contenidos, atención, análisis, documentación, ventas y tareas repetitivas, siempre con criterio humano.</p><ul><li>Asistentes</li><li>Prompts</li><li>Validación</li></ul></article>
+          <article class="service-card reveal"><i class="icon content"></i><h3>Social media y contenido</h3><p>Plan editorial, publicaciones, carruseles, reels, mensajes y dirección creativa por plataforma.</p><ul><li>Pilares</li><li>Calendario</li><li>Creatividad</li></ul></article>
+          <article class="service-card reveal"><i class="icon ads"></i><h3>Captación y campañas</h3><p>Campañas, formularios, WhatsApp, eventos de medición y embudos sencillos para convertir interés en oportunidad.</p><ul><li>Google Ads</li><li>Paid social</li><li>Landing</li></ul></article>
+          <article class="service-card reveal"><i class="icon data"></i><h3>Analítica y optimización</h3><p>Medición de visitas, leads, clics, formularios, llamadas y decisiones de mejora continua.</p><ul><li>KPIs</li><li>Eventos</li><li>Dashboard</li></ul></article>
         </div>
       </div>
     </section>
 
-    <section class="method section" id="metodo" aria-labelledby="method-title">
+    <section class="section intelligence" id="ia">
+      <div class="container intelligence-grid">
+        <div class="reveal">
+          <p class="eyebrow">IA aplicada, no ruido artificial</p>
+          <h2>La IA entra donde ahorra tiempo, mejora criterio o acelera una decisión.</h2>
+          <p>No planteamos la inteligencia artificial como un adorno. La incorporamos en puntos concretos del negocio: atención inicial, creación de contenidos, seguimiento comercial, análisis de datos, documentos, propuestas y automatizaciones.</p>
+          <a class="btn btn-secondary" href="#contacto">Revisar oportunidades de IA</a>
+        </div>
+        <div class="ai-console reveal">
+          <div class="console-top"><span></span><span></span><span></span><strong>2B AI SYSTEM</strong></div>
+          <div class="console-grid">
+            <div><small>Entrada</small><strong>Consulta · Lead · Documento</strong></div>
+            <div><small>Proceso</small><strong>Clasificar · Resumir · Priorizar</strong></div>
+            <div><small>Salida</small><strong>Tarea · Email · Informe · Acción</strong></div>
+          </div>
+          <div class="console-flow"><span>Captura</span><i></i><span>IA asistida</span><i></i><span>Validación</span><i></i><span>Decisión</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section method" id="metodo">
       <div class="container">
         <div class="section-heading reveal">
           <p class="eyebrow">Método 2B</p>
-          <h2 id="method-title">Primero claridad. Después ejecución. Siempre medición.</h2>
+          <h2>Un proceso pensado para avanzar sin perder el control.</h2>
+          <p>Primero entendemos el negocio. Después diseñamos el sistema. Y solo entonces ejecutamos, medimos y optimizamos.</p>
         </div>
-
-        <div class="process-grid">
-          <article class="process-step reveal">
-            <span>01</span>
-            <h3>Diagnóstico</h3>
-            <p>Revisamos presencia digital, canales, activos y oportunidades.</p>
-          </article>
-          <article class="process-step reveal">
-            <span>02</span>
-            <h3>Sistema</h3>
-            <p>Diseñamos la arquitectura de marketing, web, contenido y captación.</p>
-          </article>
-          <article class="process-step reveal">
-            <span>03</span>
-            <h3>Ejecución</h3>
-            <p>Creamos o mejoramos web, campañas, contenidos y automatizaciones.</p>
-          </article>
-          <article class="process-step reveal">
-            <span>04</span>
-            <h3>Medición</h3>
-            <p>Medimos formularios, WhatsApp, eventos, leads y rendimiento.</p>
-          </article>
+        <div class="timeline">
+          <article class="step reveal"><span>01</span><h3>Diagnóstico</h3><p>Revisamos web, canales, activos, mensajes, competencia y oportunidades reales.</p></article>
+          <article class="step reveal"><span>02</span><h3>Arquitectura</h3><p>Definimos qué papel cumple cada pieza: web, contenido, captación, IA, automatización y datos.</p></article>
+          <article class="step reveal"><span>03</span><h3>Producción</h3><p>Creamos o mejoramos webs, landings, contenidos, formularios, sistemas y flujos.</p></article>
+          <article class="step reveal"><span>04</span><h3>Activación</h3><p>Publicamos, conectamos formularios, WhatsApp, medición, campañas o automatizaciones.</p></article>
+          <article class="step reveal"><span>05</span><h3>Optimización</h3><p>Revisamos datos, detectamos fricciones y proponemos mejoras progresivas.</p></article>
         </div>
       </div>
     </section>
 
-    <section class="difference section" id="diferencial" aria-labelledby="difference-title">
-      <div class="container split-grid">
-        <div class="difference-copy reveal">
-          <p class="eyebrow">Diferencial</p>
-          <h2 id="difference-title">No vendemos humo tecnológico.</h2>
-          <p class="large-text">Diseñamos sistemas digitales con criterio humano, IA aplicada y medición real.</p>
-        </div>
-
-        <div class="feature-list reveal">
-          <div class="feature-item">
-            <span aria-hidden="true"></span>
-            <p>Tecnología aplicada a negocio real.</p>
-          </div>
-          <div class="feature-item">
-            <span aria-hidden="true"></span>
-            <p>Diseño premium sin ruido.</p>
-          </div>
-          <div class="feature-item">
-            <span aria-hidden="true"></span>
-            <p>Captación y medición desde el inicio.</p>
-          </div>
-          <div class="feature-item">
-            <span aria-hidden="true"></span>
-            <p>Estrategia, web, contenido e IA trabajando juntos.</p>
-          </div>
+    <section class="section outcomes">
+      <div class="container outcomes-grid">
+        <div class="reveal"><p class="eyebrow">Lo que se nota</p><h2>Una presencia digital más clara, más útil y más preparada para vender.</h2></div>
+        <div class="outcomes-list reveal">
+          <div><strong>+ Claridad</strong><span>El cliente entiende rápido qué haces y por qué debería hablar contigo.</span></div>
+          <div><strong>+ Sistema</strong><span>Web, contenido, captación e IA trabajan con una lógica común.</span></div>
+          <div><strong>+ Control</strong><span>Mides formularios, clics, WhatsApp, leads y oportunidades.</span></div>
+          <div><strong>+ Evolución</strong><span>Empiezas con una base sólida y escalas por fases sin sobredimensionar.</span></div>
         </div>
       </div>
     </section>
 
-    <section class="founder section" id="fundador" aria-labelledby="founder-title">
-      <div class="container founder-card reveal">
-        <div class="founder-image-wrap">
-          <img src="assets/img/miguel-angel.jpg" alt="Foto profesional de Miguel Ángel Fernández Sánchez" class="founder-image" width="520" height="620">
-        </div>
-
-        <div class="founder-copy">
-          <p class="eyebrow">Fundador</p>
-          <h2 id="founder-title">Miguel Ángel Fernández Sánchez</h2>
-          <p class="role">Fundador y dirección técnica de 2B OR NOT 2B AI Systems.</p>
-          <p>Tecnología, marketing e inteligencia artificial aplicadas a procesos comerciales reales. Experiencia en informática, automatización, desarrollo web y sistemas digitales para empresas.</p>
+    <section class="section founder" id="fundador">
+      <div class="container founder-grid">
+        <div class="photo-card reveal"><img src="assets/img/miguel-angel.jpg" alt="Miguel Ángel Fernández Sánchez, fundador y dirección técnica"></div>
+        <div class="founder-copy reveal">
+          <p class="eyebrow">Fundador y dirección técnica</p>
+          <h2>Miguel Ángel Fernández Sánchez</h2>
+          <p class="lead-gold">Tecnología, marketing e inteligencia artificial aplicadas a procesos comerciales reales.</p>
+          <p>2B OR NOT 2B AI Systems nace para acercar a pymes y profesionales una forma práctica de digitalizarse: estrategia clara, diseño premium, automatización razonable, IA útil y medición desde el inicio.</p>
+          <div class="tags"><span>Informática</span><span>Automatización</span><span>Web</span><span>IA aplicada</span><span>Marketing digital</span></div>
         </div>
       </div>
     </section>
 
-    <section class="contact section" id="contacto" aria-labelledby="contact-title">
+    <section class="section contact" id="contacto">
       <div class="container contact-grid">
-        <div class="contact-copy reveal">
-          <p class="eyebrow">Contacto</p>
-          <h2 id="contact-title">¿Revisamos tu sistema digital?</h2>
-          <p>Solicita un diagnóstico inicial y te diremos qué mejorar, qué priorizar y qué no merece la pena tocar todavía.</p>
-
-          <div class="contact-methods">
-            <a href="mailto:2bornot2bai@gmail.com">2bornot2bai@gmail.com</a>
-            <a href="https://wa.me/34648606079" target="_blank" rel="noopener">WhatsApp: 648 606 079</a>
+        <div class="reveal">
+          <p class="eyebrow">Diagnóstico inicial</p>
+          <h2>¿Revisamos tu sistema digital?</h2>
+          <p>Cuéntanos en qué punto está tu negocio y te diremos qué mejorar, qué priorizar y qué no merece la pena tocar todavía.</p>
+          <div class="contact-links">
+            <a href="mailto:2bornot2bai@gmail.com"><span>Email</span><strong>2bornot2bai@gmail.com</strong></a>
+            <a href="https://wa.me/34648606079" target="_blank" rel="noopener"><span>WhatsApp</span><strong>648 606 079</strong></a>
           </div>
         </div>
-
         <form class="contact-form reveal" action="https://formspree.io/f/mrejvrjv" method="POST">
           <input type="hidden" name="_subject" value="Nueva solicitud desde la web de 2B OR NOT 2B AI Systems">
-          <input type="hidden" name="origen" value="Web GitHub Pages · 2B OR NOT 2B AI Systems">
-
+          <input type="hidden" name="origen" value="Web GitHub Pages · 2B OR NOT 2B AI Systems · Premium V2">
           <div class="form-grid">
-            <label>
-              <span>Nombre</span>
-              <input type="text" name="nombre" autocomplete="name" required>
-            </label>
-
-            <label>
-              <span>Empresa</span>
-              <input type="text" name="empresa" autocomplete="organization">
-            </label>
-
-            <label>
-              <span>Email</span>
-              <input type="email" name="email" autocomplete="email" required>
-            </label>
-
-            <label>
-              <span>Teléfono / WhatsApp</span>
-              <input type="tel" name="telefono" autocomplete="tel">
-            </label>
+            <label>Nombre<input name="nombre" type="text" autocomplete="name" required></label>
+            <label>Empresa<input name="empresa" type="text" autocomplete="organization"></label>
+            <label>Email<input name="email" type="email" autocomplete="email" required></label>
+            <label>Teléfono / WhatsApp<input name="telefono" type="tel" autocomplete="tel"></label>
           </div>
-
-          <label>
-            <span>Mensaje</span>
-            <textarea name="mensaje" rows="5" required placeholder="Cuéntanos brevemente qué necesitas mejorar: web, captación, redes, IA, automatización o analítica."></textarea>
-          </label>
-
-          <label class="checkbox-label">
-            <input type="checkbox" name="consentimiento" value="Acepto el uso de mis datos para responder a esta solicitud" required>
-            <span>Acepto que 2B OR NOT 2B AI Systems use estos datos para responder a mi solicitud. El envío no implica contratación ni alta en comunicaciones comerciales.</span>
-          </label>
-
-          <button class="btn btn-primary form-submit" type="submit">Enviar solicitud</button>
-          <p class="form-note">Respuesta por email o WhatsApp. Revisión inicial orientativa, sin prometer resultados ni ROI.</p>
+          <label>¿Qué quieres mejorar?<textarea name="mensaje" rows="5" placeholder="Ej. web, captación, IA, automatización, redes, campañas, medición..." required></textarea></label>
+          <label class="consent"><input type="checkbox" name="consentimiento" value="Aceptado" required><span>Acepto que 2B OR NOT 2B AI Systems utilice estos datos para responder a mi solicitud. Los textos legales definitivos deben revisarse antes de activar captación a escala.</span></label>
+          <button class="btn btn-primary form-button" type="submit">Solicitar diagnóstico</button>
         </form>
       </div>
     </section>
@@ -298,46 +215,14 @@
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div>
-        <a class="footer-brand" href="#inicio">
-          <img src="assets/img/logo-2b.png" alt="" width="44" height="44">
-          <span>2B OR NOT 2B AI Systems</span>
-        </a>
-        <p>Marketing digital, desarrollo web, IA aplicada, automatización, social media, captación y analítica para negocios que quieren avanzar con criterio.</p>
-      </div>
-
-      <div>
-        <h2>Servicios</h2>
-        <ul>
-          <li>Webs y landing pages</li>
-          <li>IA y automatización</li>
-          <li>Social media y contenido</li>
-          <li>Captación y analítica</li>
-        </ul>
-      </div>
-
-      <div>
-        <h2>Contacto</h2>
-        <ul>
-          <li><a href="mailto:2bornot2bai@gmail.com">2bornot2bai@gmail.com</a></li>
-          <li><a href="https://wa.me/34648606079" target="_blank" rel="noopener">WhatsApp: 648 606 079</a></li>
-          <li><a href="https://www.2bornot2bai.com/">www.2bornot2bai.com</a></li>
-        </ul>
-      </div>
+      <div><a class="footer-brand" href="#top"><img src="assets/img/logo-2b.png" alt="Logo 2B"><span>2B OR NOT 2B AI Systems</span></a><p>Sistemas digitales para pymes: web, marketing, IA, automatización, captación y medición.</p></div>
+      <div><h3>Servicios</h3><ul><li>Web premium y landing pages</li><li>Marketing digital estratégico</li><li>IA aplicada y automatización</li><li>Social media, captación y analítica</li></ul></div>
+      <div><h3>Contacto</h3><ul><li><a href="mailto:2bornot2bai@gmail.com">2bornot2bai@gmail.com</a></li><li><a href="https://wa.me/34648606079" target="_blank" rel="noopener">WhatsApp: 648 606 079</a></li><li><a href="https://www.2bornot2bai.com/">www.2bornot2bai.com</a></li></ul></div>
     </div>
-
-    <div class="container footer-bottom">
-      <p>Texto legal básico pendiente de revisión profesional: aviso legal, política de privacidad y política de cookies deben adaptarse antes de la publicación definitiva.</p>
-      <p>© <span data-year></span> 2B OR NOT 2B AI Systems. Todos los derechos reservados.</p>
-    </div>
+    <div class="container footer-bottom"><p>Texto legal básico: esta web es informativa. No se prometen resultados, leads ni ROI sin diagnóstico previo y datos suficientes.</p><p>© <span id="year"></span> 2B OR NOT 2B AI Systems.</p></div>
   </footer>
 
-  <a class="whatsapp-float" href="https://wa.me/34648606079" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
-    <svg viewBox="0 0 32 32" aria-hidden="true">
-      <path d="M16 3.5A12.2 12.2 0 0 0 5.6 22.1L4 28l6.1-1.6A12.2 12.2 0 1 0 16 3.5Zm0 2.3a9.9 9.9 0 0 1 8.4 15.1 9.9 9.9 0 0 1-13.2 3.2l-.5-.3-3.3.9.9-3.2-.3-.5A9.9 9.9 0 0 1 16 5.8Zm-4.5 5.1c-.2 0-.5.1-.8.4-.3.3-1.1 1-1.1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.4 5.3 4.6 2.6 1 3.1.8 3.7.8.6-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.7-.4l-2.1-1c-.3-.1-.6-.2-.8.2-.2.3-.9 1-.1.2-.3.2-.5.3-.9.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.4-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.4-.6.1-.2.1-.5 0-.7l-.9-2.1c-.2-.5-.4-.5-.7-.5h-.9Z"/>
-    </svg>
-  </a>
-
-  <script src="assets/js/main.js" defer></script>
+  <a class="whatsapp-float" href="https://wa.me/34648606079" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.02 3.5A12.36 12.36 0 0 0 5.4 22.2L4 28.5l6.47-1.32A12.37 12.37 0 1 0 16.02 3.5Zm0 22.3a9.9 9.9 0 0 1-5.05-1.38l-.36-.22-3.86.8.82-3.75-.24-.39A9.91 9.91 0 1 1 16.02 25.8Zm5.43-7.42c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.95 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.08-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2-1.42.25-.7.25-1.3.17-1.42-.07-.13-.27-.2-.57-.35Z"/></svg></a>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
